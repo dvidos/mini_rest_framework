@@ -1,7 +1,7 @@
 <?php
 
-require('lib/purest_client.php');
-require('lib/purest_proxy.php');
+require('lib/rest_client.php');
+require('lib/rest_proxy.php');
 require('proxies/customer_proxy.php');
 
 

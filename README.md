@@ -1,11 +1,11 @@
-# simple_rest_framework
+# simple rest framework
 
 A simple REST services framework to be used as a skeleton.
 
 
 ## Client
 
-On client, we can declare various proxies who extend the REST_Proxy class. All they need to provide is the relative resource URL. A REST_Client is injected for testing or other purposes.
+On client, we can declare various proxies who extend the `REST_Proxy` class. All they need to provide is the relative resource URL. A REST_Client is injected for testing or other purposes.
 
 The rest client implements all the HTTP calls to the REST server using the correct URL and verb. It then returns the resulting data 
 

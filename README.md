@@ -13,7 +13,7 @@ The rest client implements all the HTTP calls to the REST server using the corre
 
 ## Server
 
-Server contains a central dispatcher. The dispatcher converts the HTTP verb into the appropriate function of the Resource handler. Each Resource handler has to extend the Base_Resource class and implement the list_all(), load(), insert(), update(), delete() functions.
+Server contains a central dispatcher. The dispatcher converts the HTTP verb into the appropriate function of the Resource handler. Each Resource handler has to extend the `Base_Resource` class and implement the list_all(), load(), insert(), update(), delete() functions.
 
 Each dispatcher returns an array of an int (200, 500 or other HTTP status code) and the data to be returned to the client. See customer resource as an example.
 
